@@ -286,7 +286,7 @@ Because Python uses indentation to determine when a code block starts and ends,
 it is necessary to put _something_ inside of an empty function- comments,
 sadly, do not count.
 
-Python developers typically opt for `pass` over `return None` because it is a
+Python developers typically opt for `pass` over `return None` because it is 
 statement rather than an expression. It does not terminate the function like
 a `return` statement would do. You can even put code after your `pass` and it
 will be executed! A `pass` statement reminds you that there is work to be done
